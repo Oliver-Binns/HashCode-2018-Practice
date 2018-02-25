@@ -5,7 +5,7 @@ def readToStartOfNextLine(text, i):
     return i
 
 def main():
-    f = open('example.txt', 'r')
+    f = open('input/example.in', 'r')
 
     text = f.read()
     i = 0
